@@ -6,7 +6,7 @@ const Navbar = () => {
   const items = useSelector((state)=>state.cart);//whenever anything changees in cart items get updated
   return (
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-      <span className='logo'>Redux Store</span>
+      
       <div>
         {/* Use absolute paths instead of incorrect relative paths */}
         <div className='navLinks'>
